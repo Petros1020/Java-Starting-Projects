@@ -1,0 +1,357 @@
+body {
+    /*background-color: #dedede;*/
+
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+    background: black;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(http://51.15.115.175:8080/jnpepfiles/profileimages/fbg.jpg);;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+
+.coupon {
+    display: inline-table;
+
+    margin: 10% 5%;
+    height: 600px;
+
+
+}
+
+.coupon #head {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    min-height: 56px;
+
+}
+
+
+
+
+@media screen and (max-width: 500px) {
+    .coupon #title img {
+        height: 15px;
+    }
+}
+
+
+
+.coupon-img {
+    display: inline;
+    width: 40%;
+    margin-left: 5%;
+    margin-bottom: 15px;
+
+
+}
+
+
+
+.items {
+    margin: 15px 0;
+}
+
+.usd, .cents {
+    font-size: 20px;
+}
+
+.number {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+/*
+sup {
+    top: -15px;
+}
+*/
+
+#activity-info ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+}
+
+#activity-info ul li { 
+    display: inline;
+    text-align: center;
+}
+
+#business-info ul li span {
+    text-decoration: none;
+    padding: .2em 1em;
+}
+
+#business-info ul li span i {
+    padding-right: 5px;
+}
+
+
+
+.description {
+    height: 200px;
+    color: #333;
+    padding-top: 15px;
+    font-size: 15px;
+
+}
+
+div.description{
+    height: 200px;
+    color: #333;
+    overflow: hidden;
+    overflow: auto;
+
+}
+
+
+
+.panel-heading {
+    background-color: #e67e22;
+    color: #fff;
+    margin:0 auto;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+.map {
+    display: inline;
+}
+
+.mapimage {
+    display: inline;
+    width: 40%;
+    margin-bottom: 15px;
+    margin-left: 5%;
+    margin-right: 5%;
+
+
+}
+
+.well {
+    background-color: #333;
+}
+
+.panel {
+    width:50%;
+
+
+
+}
+
+
+
+.navbar-expand-lg {
+    background-color: rgba(0, 0, 0, 0.6);
+    border: none;
+}
+
+
+
+/*---------------------------------*/
+/*FOOTER*/
+/*---------------------------------*/
+
+footer{
+    background-color: #333;
+    padding:20px;
+
+    font-size:80% 
+}
+.footer-nav{
+    list-style: none;
+    float: left;
+    margin-bottom: 0%;
+
+}
+
+
+
+.footer-nav li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited{
+    text-decoration: none;
+    border: 0;
+    color: #888;
+    transition: color 0.2s;
+
+}
+
+.footer-nav li a:hover,
+.footer-nav li a:active {
+    color: #ddd;
+}  
+footer p{
+    color: #888;
+    text-align: center;
+
+    margin-top: 20px
+}
+
+.nav-item {
+    float: right;
+}
+
+
+
+
+
+
+
+#descr {
+
+    color: #333;
+    width: 50%;
+
+
+}
+
+
+#descr1 {
+
+    color: #333;
+    width: 50%;
+    height: 150px;
+
+
+}
+
+
+
+
+
+
+
+.panelc {
+    width: 25%;
+
+}
+
+.panelbody-chat {
+    background-color: #fff;
+    height: 410px;
+
+
+}
+
+.themeBtn {
+
+    background: #e67e22;
+    color: #ffffff !important;
+    display: inline;
+    font-size: 15px;
+    font-weight: 500;
+    height: 20px;
+    line-height: 0.1;
+    padding: 15px 30px;
+    text-transform: capitalize;
+
+    letter-spacing: 0.2px;
+    border:0px !important;
+    cursor:pointer;
+    border-radius:100px;
+
+
+}
+a:hover{
+    color: #ffffff;
+    text-decoration:none;
+}
+.themeBtn:hover {
+    background: rgba(230, 126, 34, 0.9);
+    color: #ffffff;
+    box-shadow: 0 10px 25px -2px rgba(230, 126, 34, 0.9);
+}
+
+
+
+
+.info {
+    margin-left: 30px;
+}
+
+.coupon1 {
+    display: inline-table;
+    float: right;
+    width: 30%;
+    margin: 10% 5%;
+    height: 600px;
+}
+
+
+/*
+.discription {
+    
+    color: #333;
+    padding-top: 15px;
+    font-size: 15px;
+
+    
+}
+*/
+#attendees {
+    float: right;
+    color: #333;
+    width: 50%;
+
+    /*    width:18%;*/
+
+}
+#attendees {
+    float: right;
+    color: #333;
+    width: 50%;
+    height:150px;
+}
+
+.attendees {
+    color: #333;
+    width: 50%
+}
+
+#attenlist li {
+    color: #333;
+
+}
+
+
+
+#attenlist {
+    height:90px;
+    overflow:hidden; 
+    overflow-y:scroll;
+
+}
+
+.panel-body {
+    height: 600px;
+}
+
+#leave {
+    display: table;
+    margin: auto auto;
+
+}
+
+
+

@@ -1,0 +1,274 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,900,700,500,300);
+
+
+
+
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+
+}
+
+/*
+body{
+   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(fbg.jpg);
+    background-size: cover; 
+    
+}
+*/
+
+
+html{
+    
+   font-family: 'Lato', sans-serif;
+  font-weight: 300;
+/*
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(fbg.jpg);
+    background-size: cover;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+    background-repeat: no-repeat center center;
+*/
+    
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(http://51.15.115.175:8080/jnpepfiles/activityimages/fbg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+h2{
+  text-transform: uppercase;
+  font-size: 1em;
+  margin-bottom: 10px;
+    color: #e67e22;
+}
+
+
+#newActivity{
+    height: 100%
+}
+
+#formunderlay{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: -10;
+}
+#activityform{
+  width:70%;
+  min-width: 50%;
+  height:600px;
+  background: rgba(0, 0, 0, 0.39);
+  margin: 10% auto;
+  padding: 20px;
+  box-shadow: 0px 3px 10px rgba(0,0,0,0.4);
+}
+
+#formHolder{
+  float: left;
+  height: 100%;
+  width: 50%;
+  background: #FFF;
+  padding: 20px;
+  box-shadow: 0px 1px 2px rgba(0,0,0,0.2);
+}
+#spacer, #spacertwo{
+    
+  float: left;
+  width: 2.5%;
+  height: 100%; 
+}
+#register{
+  float: left;
+  background: #FFF;
+  padding: 20px;
+  height: 100%;
+  width: 47.5%;
+  box-shadow: 0px 1px 2px rgba(0,0,0,0.2);
+  
+}
+.desc{
+
+  margin-bottom: 20px;
+    
+    
+}
+textarea, input{
+  width: 100%;
+  resize: none;
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+
+input[type="text"], input[type="password"], textarea{
+  padding: 10px;
+  border: solid 1px #dcdcdc;
+  transition: box-shadow 0.3s, border 0.3s;
+  outline: none;
+} 
+
+
+/*submit button*/
+input[type="submit"]{
+  border: none;
+  -webkit-border-radius: 3;
+  -moz-border-radius: 3;
+  border-radius: 3px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 11px;
+  background: #333;
+  padding: 8px 10px 8px 10px;
+  text-decoration: none;
+}
+
+input[type="submit"]:hover {
+  background: #e67e22;
+  text-decoration: none;
+}
+
+
+
+select {
+    width: 100%;
+    padding:7px;
+    margin: 0;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+    background: #EEE;
+    color:#888;
+    border:none;
+    outline:none;
+    display: inline-block;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+    cursor:pointer;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+
+
+
+@media all and (max-width: 500px){
+  
+  #loginform, #register, #formHolder {width: 100%}
+  #spacer{
+    height: 20px;
+  }
+  #activityform{
+    height: auto;
+    overflow: auto;
+    min-width: 200px;
+  }
+}
+
+
+
+.iframe-map {
+    position: relative;
+    width:100%;
+    height: 100%;
+}
+
+
+
+
+#time {
+    display: inline-flex;
+    
+    
+    
+}
+
+#membersnm {
+    display: inline-flex;
+    
+        
+}
+
+#date {
+    display: inline-flex;
+    
+    
+}
+
+
+
+/*................................*/
+/*Upload image*/
+/*.................................*/
+
+
+
+  
+
+.gui-input {
+    
+}
+
+#uploadimage {
+    
+}
+
+.file {
+    position: relative;
+    border-bottom: 2px solid #e67e22;
+     
+    
+  
+/*
+    height: 42px;
+    width: 100%;
+    box-sizing(border-box);
+     input[type="file"] ;  
+    +position(absolute, 0px null null -9999px)
+    border-bottom: 2px solid #000;
+  
+  input[type="submit"]
+    background: $themeColor
+    border: none
+    color: white !important
+*/
+    
+/*
+  input[type="text"]
+ 
+
+    outline: none
+    border: none    
+*/
+    
+/*
+    +transition(border-color 0.3s ease-in-out)
+  label 
+    font: 
+      family: $font
+      style: italic
+      weight: 300
+    width: 100%   
+    background-color: rgba(255, 234, 222, 0.5)
+    pointer-events: none
+    +box-sizing(border-box)
+    +transition
+  select
+    color: $formBackgroundColor    
+    -webkit-appearance: none
+    -moz-appearance: none
+    appearance: none
+    outline: none
+    text-indent: 0.01px
+    text-overflow: ''
+    position: relative     
+    +transition(all .3s ease-in-out)
+    text-shadow: none
+  
+  select::-ms-expand 
+    display: none
+*/
+  
+}
+
+
